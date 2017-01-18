@@ -48,7 +48,7 @@ void loadStory(int index){
 /*void runStory(int page){
   fill(0);
   text(story[page],10,10);
-}*/
+}
 
 void mouseClicked(){
   int x = mouseX;
@@ -234,6 +234,6 @@ class Story {
   /*String getPassage(int index){
     String passage = story[index];
     return passage;
-  }*/
+  }
   
 }*/
