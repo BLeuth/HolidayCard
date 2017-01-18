@@ -1,4 +1,12 @@
-//Link for story https://americanliterature.com/christmas
+void setup(){
+  size(1000,600);
+}
+PImage man = loadImages("SimpleOrnamentc.png");
+void draw(){
+  background(man);
+}
+
+/*//Link for story https://americanliterature.com/christmas
 PImage bookshelf;
 Boolean main = true;
 Boolean storyTime = false;
@@ -227,4 +235,4 @@ class Story {
     return passage;
   }*/
   
-}
+}*/
