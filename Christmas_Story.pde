@@ -1,13 +1,4 @@
-void setup(){
-  size(1000,600);
-  background(0);
-}
-PImage man = loadImages("SimpleOrnamentc.png");
-void draw(){
-  background(man);
-}
-
-/*//Link for story https://americanliterature.com/christmas
+//Link for story https://americanliterature.com/christmas
 PImage bookshelf;
 Boolean main = true;
 Boolean storyTime = false;
@@ -48,7 +39,7 @@ void loadStory(int index){
 /*void runStory(int page){
   fill(0);
   text(story[page],10,10);
-}
+}*/
 
 void mouseClicked(){
   int x = mouseX;
@@ -234,6 +225,6 @@ class Story {
   /*String getPassage(int index){
     String passage = story[index];
     return passage;
-  }
+  }*/
   
-}*/
+}
